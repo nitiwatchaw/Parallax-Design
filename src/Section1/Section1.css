@@ -1,0 +1,104 @@
+h1 {
+    font-size: 150px;
+    font-family: fantasy;
+    color: white;
+    z-index: 55;
+    font-weight: bold;
+    position: absolute;
+    top: 86px;
+    transition-duration: .3s;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    place-items: center;
+
+}
+
+.img1 {
+    background-image: url(../assets/background-layer/1.jpg);
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    transition-duration: .3s;
+}
+
+.img2 {
+    background-image: url(../assets/background-layer/2.png);
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    transition-duration: .3s;
+}
+
+.img3 {
+    background-image: url(../assets/background-layer/3.png);
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 30;
+    transition-duration: .3s;
+}
+
+
+.img4 {
+    background-image: url(../assets/background-layer/4.png);
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 40;
+    transition-duration: .3s;
+}
+
+
+.img5 {
+    background-image: url(../assets/background-layer/5.png);
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 50;
+    transition-duration: .3s;
+}
+
+
+.img6 {
+    background-image: url(../assets/background-layer/6.png);
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 60;
+    transition-duration: .3s;
+}
+
+
+.img7 {
+    background-image: url(../assets/background-layer/7.png);
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 70;
+    transition-duration: .3s;
+}
+.scrollAni{
+    width: 80px;
+    position: absolute;
+    top: 70% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    transition-duration: .4s;
+
+}

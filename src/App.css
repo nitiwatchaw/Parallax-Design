@@ -1,0 +1,92 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  background-color: #071111;
+}
+
+.text-scroll {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  z-index: 500;
+  left: 30px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-scroll .line {
+  background-color: white;
+  width: 1px;
+  height: 50px;
+}
+
+.text-scroll p {
+  color: white;
+  transform: rotate(-90deg);
+}
+
+.text-scroll .dot {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9200;
+  height: 10px;
+  background: #aa352d;
+  transform-origin: 0%;
+
+}
+
+.buttonUp {
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  z-index: 800;
+  transition-duration: .3s;
+  opacity: 0;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+  padding: 0;
+}
+
+.buttonUp:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.cursor {
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 20px;
+  position: fixed;
+  z-index: 1000;
+}

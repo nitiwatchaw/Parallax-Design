@@ -1,0 +1,162 @@
+.container-body {
+    background-color: #071111;
+    width: 100%;
+    height: 200vh;
+    position: relative;
+}
+
+.allMons {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 300px;
+
+}
+
+.mons1,
+.mons2 {
+    width: 300px;
+    z-index: 50;
+    position: absolute;
+}
+
+.bg-main {
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 40;
+    transition-duration: .3s;
+    background-image: url(../assets/background-layer/railway/bg-main.png);
+    background-position: center;
+    object-fit: cover;
+
+}
+
+.bg-ora {
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 40;
+    transition-duration: .3s;
+    background-image: url(../assets/background-layer/railway/ora.png);
+    background-position: center;
+    object-fit: cover;
+}
+
+.bg-border-top {
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 40;
+    transition-duration: .3s;
+    background-image: url(../assets/background-layer/railway/border-top.png);
+
+    background-position: center;
+    object-fit: cover;
+}
+
+.bg-long-border {
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 40;
+    transition-duration: .3s;
+    background-image: url(../assets/background-layer/railway/long-border.png);
+    background-position: center;
+
+    object-fit: cover;
+}
+
+.bg-rock-left {
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 40;
+    transition-duration: .3s;
+    background-image: url(../assets/background-layer/railway/rock-left.png);
+    background-position: center;
+
+    object-fit: cover;
+}
+
+.bg-trail-path-long {
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 40;
+    transition-duration: .3s;
+    background-image: url(../assets/background-layer/railway/trail-path-long.png);
+    background-position: center;
+
+    object-fit: cover;
+}
+
+.bg-trail-path {
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 40;
+    transition-duration: .3s;
+    background-image: url(../assets/background-layer/railway/trail-path.png);
+    object-fit: cover;
+    background-position: center;
+}
+
+
+.bg-mons2 {
+    background-image: url(../assets/mosnters/bg.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 20%;
+    margin-top: 360px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.danger {
+    font-size: 260px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 160, 160);
+    z-index: 100;
+    position: absolute;
+    font-weight: bold;
+    top: 1600px;
+    border: 1px solid white;
+}
+
+.danger2 {
+    font-size: 260px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    z-index: 100;
+    position: absolute;
+    font-weight: bold;
+    top: 1250px;
+}
+
+.bg-wep2 {
+    object-fit: contain;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    transform: rotate(-110deg);
+    left: -180px;
+    top: 0;
+}
+
+.container-body p {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 800px) {
+
+
+}
