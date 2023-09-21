@@ -74,7 +74,7 @@ const Section3 = () => {
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: false, amount: 0.25 }}
-                className="wrapper" ref={Railref}>
+                className="wrapper2" ref={Railref}>
 
 
                 <motion.div className='bg-main' style={{ y: rail7 }} variants={slideIn("right", "tween", 0.1, 0.2)}></motion.div>

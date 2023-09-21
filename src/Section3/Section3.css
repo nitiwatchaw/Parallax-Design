@@ -1,8 +1,19 @@
 .container-body {
     background-color: #071111;
     width: 100%;
-    height: 200vh;
+    height: 1800px;
     position: relative;
+}
+
+.wrapper2 {
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    place-items: center;
+    z-index: 52;
+    margin-top: 600px;
 }
 
 .allMons {
@@ -17,6 +28,10 @@
     width: 300px;
     z-index: 50;
     position: absolute;
+}
+
+.mons2 {
+    z-index: 100;
 }
 
 .bg-main {
@@ -123,7 +138,7 @@
     z-index: 100;
     position: absolute;
     font-weight: bold;
-    top: 1600px;
+    top: 1900px;
     border: 1px solid white;
 }
 
@@ -134,7 +149,7 @@
     z-index: 100;
     position: absolute;
     font-weight: bold;
-    top: 1250px;
+    top: 1550px;
 }
 
 .bg-wep2 {
@@ -148,7 +163,7 @@
 }
 
 .container-body p {
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     position: absolute;
     top: 10%;
@@ -156,7 +171,41 @@
     transform: translate(-50%, -50%);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1500px) {
+    .allMons {
+        width: 350px;
+    }
 
+    .mons1,
+    .mons2 {
+        width: 200px;
 
+    }
+
+    .mons2 {
+        z-index: 100;
+    }
+
+    .danger2 {
+        width: 400px;
+        top: 1368px;
+    }
+
+    .danger {
+        width: fit-content;
+        left: -900px;
+        top: 1724px;
+    }
 }
+
+@media (max-width: 1000px) {
+    .danger {
+        left: -400px;
+    }
+
+    .mons1 {
+        left: -572px;
+        top: 2064px;
+    }
+}
+

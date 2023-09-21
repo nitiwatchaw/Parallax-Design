@@ -7,10 +7,10 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 460px 20px 600px 20px;
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
     inset: 0;
-    
+
 }
 
 .bg-wep {
@@ -20,3 +20,16 @@
     position: absolute;
 }
 
+@media (max-width: 578px) {
+
+    h2 {
+        font-size: 35px;
+    }
+
+    P {
+        font-size: 20px;
+        line-height: 46px;
+    }
+
+
+}

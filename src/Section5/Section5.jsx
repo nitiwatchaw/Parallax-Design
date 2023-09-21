@@ -104,7 +104,7 @@ const Section5 = () => {
 
 
 
-                <motion.div className="text-end" variants={fadeIn("down", "tween", 1.2, 1.2)}>
+                <motion.div className="text-end" variants={fadeIn("down", "tween", 1.2, 1.6)}>
                     <h1>Credit  </h1>
                     <span>{text}</span>
                 </motion.div>

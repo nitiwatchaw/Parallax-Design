@@ -67,10 +67,10 @@ body {
   z-index: 800;
   transition-duration: .3s;
   opacity: 0;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.505);
   color: white;
   border-radius: 10px;
-  border: 1px solid white;
+  border: 1px solid rgb(103, 103, 103);
   cursor: pointer;
   padding: 0;
 }
@@ -89,4 +89,11 @@ body {
   width: 20px;
   position: fixed;
   z-index: 1000;
+}
+
+
+@media (max-width: 578px) {
+  .text-scroll {
+    display: none;
+  }
 }
