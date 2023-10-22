@@ -1,9 +1,13 @@
 import React from 'react'
 import './Section5.css'
 import { Parallax } from 'react-scroll-parallax'
-import {  motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { slideIn, staggerContainer, fadeIn } from '../utils/motion'
 import { useTypewriter } from 'react-simple-typewriter'
+import Mon1 from '../../src/assets/mosnters/galMon1.png'
+import Mon2 from '../../src/assets/mosnters/galMon2.png'
+import Mon3 from '../../src/assets/mosnters/galMon3.png'
+import Mon4 from '../../src/assets/mosnters/galMon4.png'
 const Section5 = () => {
 
     const [text] = useTypewriter({
@@ -12,8 +16,8 @@ const Section5 = () => {
         typeSpeed: 100,
         deleteSpeed: 90,
         // autoStart:false
-        start:300
-  
+        start: 300
+
     });
 
     return (
@@ -42,24 +46,24 @@ const Section5 = () => {
                 <div className='galContainer'>
                     <Parallax speed={-10} scale={[0.5, 1.2]} opacity={[0.5, 1]}>
                         <div className="con1">
-                            <img src="../src/assets/mosnters/galMon1.png" alt="" className='galMon' />
+                            <img src={Mon1} alt="" className='galMon' />
                         </div>
                     </Parallax>
 
                     <Parallax speed={10} opacity={[0.5, 1]} scale={[0.5, 1.2]} >
                         <div className="con2">
-                            <img src="../src/assets/mosnters/galMon2.png" alt="" className='galMon' />
+                            <img src={Mon2} alt="" className='galMon' />
                         </div>
                     </Parallax>
 
                     <Parallax opacity={[0.5, 1]} scale={[0.5, 1.2]}>
                         <div className="con3">
-                            <img src="../src/assets/mosnters/galMon3.png" alt="" className='galMon' />
+                            <img src={Mon3} alt="" className='galMon' />
                         </div>
                     </Parallax>
                     <Parallax opacity={[0.5, 1]} scale={[0.5, 1.2]}>
                         <div className="con4">
-                            <img src="../src/assets/mosnters/galMon4.png" alt="" className='galMon' />
+                            <img src={Mon4} alt="" className='galMon' />
                         </div>
                     </Parallax>
                 </div>
