@@ -4,7 +4,10 @@ import './Section3.css'
 import { useParallax } from "react-scroll-parallax";
 import { useScroll, motion, useTransform } from 'framer-motion'
 import { slideIn, staggerContainer } from '../utils/motion'
-
+import MonAll from '../assets/mosnters/all mons.png'
+import Mon1 from '../assets/mosnters/mons1.png'
+import Mon2 from '../assets/mosnters/mons2.png'
+import web2 from '../assets/background-layer/wep2.png'
 const Section3 = () => {
     const parallax0 = useParallax({
         easing: "c",
@@ -59,12 +62,12 @@ const Section3 = () => {
             viewport={{ once: false, amount: 0.25 }}
             className="container-body" >
 
-            <img src="./src/assets/mosnters/all mons.png" alt="" ref={parallax0.ref} className='allMons' />
-            <img src="./src/assets/mosnters/mons1.png" alt="" ref={parallax1.ref} className='mons1' />
-            <img src="./src/assets/mosnters/mons2.png" alt="" ref={parallax2.ref} className='mons2' />
+            <img src={MonAll} alt="" ref={parallax0.ref} className='allMons' />
+            <img src={Mon1} alt="" ref={parallax1.ref} className='mons1' />
+            <img src={Mon2} alt="" ref={parallax2.ref} className='mons2' />
             <h3 ref={parallax3.ref} className='danger'>DANGER</h3>
             <h3 ref={parallax4.ref} className='danger2'>MONSTER</h3>
-            <img className='bg-wep2' ref={parallaxRotage.ref} src='./src/assets/background-layer/wep2.png' />
+            <img className='bg-wep2' ref={parallaxRotage.ref} src={web2} />
             <motion.p variants={slideIn("right", "tween", 0.1, 0.6)}>
                 Until later it became the SCP Foundation, which collects stories from back home in the form of “Experiment report file”.
             </motion.p>

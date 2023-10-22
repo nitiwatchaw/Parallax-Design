@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { slideIn, staggerChildren } from '../utils/motion'
 import { useParallax } from "react-scroll-parallax";
-
+import web from '../assets/background-layer/wep1.png'
 import './Section2.css'
 const Section2 = () => {
 
@@ -24,7 +24,7 @@ const Section2 = () => {
                 Including telling how to cope if 'that thing' leaks out into human society.
             </motion.p>
 
-            <img className='bg-wep' src='./src/assets/background-layer/wep1.png' ref={parallaxRotage.ref} />
+            <img className='bg-wep' src={web} ref={parallaxRotage.ref} />
 
 
         </motion.div>
